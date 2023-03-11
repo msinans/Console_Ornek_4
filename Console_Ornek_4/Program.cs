@@ -12,7 +12,11 @@ namespace Console_Ornek_4
         {
             Islem islem = new Islem();
             islem.topla(7, 8);
-            islem.topla(9, 10);
+            islem.topla(9, 10);            
+
+            Console.WriteLine("\n\n\n");
+
+            islem.kare(7);            
             Console.Read();
         }
     }

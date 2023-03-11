@@ -14,5 +14,12 @@ namespace Console_Ornek_4
             Console.WriteLine("Sonuç: " + s3);
             return s3;
         }
+
+        public int kare(int sayi)
+        {
+            int sonuc = sayi * sayi;
+            Console.WriteLine("Sonuç: " + sonuc);
+            return sonuc;
+        }
     }
 }
